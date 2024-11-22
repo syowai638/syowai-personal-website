@@ -13,7 +13,7 @@ This is a showcase of my journey, skills, and projects, offering an insight into
 - Portfolio/Project
 - Skills
 - Interactive Features
-- Chatbot
+- Chatbot functionality
 
 ## Technologies
 - **HTML**
