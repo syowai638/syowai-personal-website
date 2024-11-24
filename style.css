@@ -326,28 +326,24 @@ header {
   font-weight: bold;
 }
 
-#features p {
-  font-size: 1.2rem;
-  margin-bottom: 40px;
-  color: #666;
-}
-
 .features-list {
   display: flex;
   justify-content: space-around;
-  align-items: flex-start;
+  align-items: center;
   flex-wrap: wrap;
   gap: 30px;
 }
 
 .feature-item {
   background-color: #fff;
+  border-radius: 15px;
   padding: 20px;
   width: 250px;
-  border-radius: 10px;
   box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
   transition: transform 0.3s ease-in-out, box-shadow 0.3s ease;
   text-align: center;
+  position: relative;
+  overflow: hidden;
 }
 
 .feature-item h3 {
@@ -364,24 +360,97 @@ header {
   margin-bottom: 20px;
 }
 
+.feature-item::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(45deg, #00abf0, #4CAF50);
+  opacity: 0.1;
+  transition: opacity 0.3s ease;
+  z-index: -1;
+}
+
 .feature-item:hover {
   transform: scale(1.05);
   box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
 }
 
+.feature-item:hover::before {
+  opacity: 0.3;
+}
+
 /* Responsive Design */
 @media (max-width: 768px) {
   #features {
-      padding: 40px 5%;
+    padding: 40px 5%;
   }
 
   .features-list {
-      flex-direction: column;
-      align-items: center;
+    flex-direction: column;
+    align-items: center;
   }
 
   .feature-item {
-      width: 80%;
-      margin-bottom: 20px;
+    width: 80%;
+    margin-bottom: 20px;
+  }
+}
+.footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 30px 10%;
+}
+
+.footer h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+  color: #4CAF50;
+}
+
+.footer p {
+  font-size: 1.2rem;
+  margin-bottom: 20px;
+  color: #ccc;
+}
+
+.footer-links {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  gap: 20px;  /* Space between the links */
+  margin: 0;
+}
+
+.footer-links li {
+  font-size: 1rem;
+}
+
+.footer-links a {
+  color: #4CAF50;
+  text-decoration: none;
+}
+
+.footer-links a:hover {
+  text-decoration: underline;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .footer {
+      padding: 20px 5%;
+  }
+
+  .footer-links {
+      flex-direction: column; /* Stack links vertically on smaller screens */
+      align-items: center;
+  }
+
+  .footer-links li {
+      margin-bottom: 10px;
   }
 }
