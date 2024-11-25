@@ -1,5 +1,6 @@
 # Syowai Personal Website
 This is a showcase of my journey, skills, and projects, offering an insight into my professional background and personal interests. The website is designed to serve as a dynamic portfolio, a hub for sharing ideas, and a platform for connecting with like-minded individuals.
+
 ## Table of Contents
 - [Features](#features)
 - [Technologies](#technologies)
