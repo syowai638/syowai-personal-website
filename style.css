@@ -471,11 +471,11 @@ header {
 }
 
 .footer-links li a {
-  color: #ff9800;
+  color: #00abf0;
   text-decoration: none;
   font-size: 1.1rem;
   font-weight: bold;
-  text-transform: uppercase;
+  text-transform: lowercase;
 }
 
 .footer-links li:hover {
@@ -504,7 +504,6 @@ header {
   opacity: 0.3;
 }
 
-/* Responsive Design */
 @media (max-width: 768px) {
   .footer-links {
     flex-direction: column;
