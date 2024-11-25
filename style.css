@@ -12,25 +12,39 @@ header {
   right: 0;
   width: 100%;
   background-color: #333;
-  padding: 10px 30px;
+  padding: 10px 10px;
   display: flex;
   justify-content: space-between;
   align-items: center;
   z-index: 1000;
   box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
-  margin-left: 30px;
+
 }
 
-header +a{
-  margin-left: 30px;
-}
 
 .logo {
-  font-size: 1.5rem;
-  font-weight: bold;
-  color: #ffffff;
-  text-decoration: none;
+  font-size: 1rem; /* Adjust size as needed */
+  color: #00abf0; /* Pick a contrasting color */
+  text-decoration: none; /* Remove underline */
+  font-weight: bold; /* Make the text stand out */
+  text-transform: uppercase; /* Optional for styling */
+  position: relative; /* To add effects if necessary */
 }
+
+/* Add a background for better visibility if needed */
+.logo {
+  background-color: rgba(255, 255, 255, 0.8); /* Transparent white */
+  padding: 5px 10px; /* Add spacing around the text */
+  border-radius: 5px; /* Optional rounded corners */
+}
+
+/* Hover Effect */
+.logo:hover {
+  color: #333; /* Change text color on hover */
+  background-color: rgba(0, 171, 240, 0.2); /* Subtle hover effect */
+  transition: all 0.3s ease; /* Smooth hover effect */
+}
+
 
 .navbar {
   display: flex;
