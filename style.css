@@ -296,15 +296,15 @@ fon
 .skill-item h3 {
   font-size: 1.8rem;
   color: #333;
-  margin-bottom: 15px;
+  margin-top: 15px; /* Adjusted to separate from the logo */
   text-transform: uppercase;
   letter-spacing: 1px;
 }
 
-.skill-item p {
-  font-size: 1rem;
-  color: #666;
-  margin-bottom: 20px;
+.skill-logo {
+  width: 80px;
+  height: auto;
+  margin-bottom: 10px; /* Ensures spacing between logo and text */
 }
 
 .skill-item::before {
@@ -329,15 +329,14 @@ fon
   opacity: 0.3;
 }
 
-
 @media (max-width: 768px) {
   .skills-container {
-      flex-direction: column;
+    flex-direction: column;
   }
 
   .skill-item {
-      width: 80%;
-      margin-bottom: 20px;
+    width: 80%;
+    margin-bottom: 20px;
   }
 }
 
