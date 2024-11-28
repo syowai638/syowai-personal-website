@@ -5,7 +5,7 @@ This is a showcase of my journey, skills, and projects, offering an insight into
 - [Features](#features)
 - [Technologies](#technologies)
 - [Installation](#installation)
-- [Contribution](contribution)
+- [Contribution](#contribution)
 
 ## Features
 - Responsive design for all devices
@@ -13,8 +13,11 @@ This is a showcase of my journey, skills, and projects, offering an insight into
 - About Me
 - Portfolio/Project
 - Skills
+
+## Feture implementations
 - Interactive Features
 - Chatbot functionality
+
 
 ## Technologies
 - **HTML**

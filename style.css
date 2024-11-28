@@ -118,7 +118,7 @@ header {
   text-align: center;
   z-index: 1;
 }
-
+fon
 .home-content h1 {
   font-size: 3rem;
   margin-bottom: 1rem;
@@ -131,7 +131,7 @@ header {
 
 #about {
   padding: 60px 10%;
-  background-color: #f9f9f9;
+  background-color: #f4f4f4;
   color: #333;
 
 }
@@ -161,9 +161,12 @@ header {
 }
 
 .about-content h2 {
-  font-size: 2rem;
+  font-size: 2.5rem;
+  margin-bottom: 40px;
   color: #00abf0;
-  margin-bottom: 10px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-weight: bold;
 }
 
 .about-content h3 {
@@ -195,22 +198,22 @@ header {
   }
 }
 
-.portfolio {
+.projects {
   padding: 60px 10%;
-  background-color: #f9f9f9;
+  background-color: #f4f4f4;
   text-align: center;
 }
 
-.portfolio h2 {
+.projects h2 {
   font-size: 2.5rem;
   margin-bottom: 40px;
-  color: #333;
+  color: #00abf0;
   text-transform: uppercase;
   letter-spacing: 2px;
   font-weight: bold;
 }
 
-.portfolio-items {
+.projects-items {
   display: flex;
   justify-content: center;
   align-items: flex-start;
@@ -218,7 +221,7 @@ header {
   flex-wrap: wrap;
 }
 
-.portfolio-item {
+.projects-item {
   background-color: #fff;
   border-radius: 15px;
   box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
@@ -228,14 +231,14 @@ header {
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
-.portfolio-item img {
+.projects-item img {
   width: 100%;
   height: 200px;
   object-fit: cover;
   border-bottom: 3px solid #00abf0;
 }
 
-.portfolio-item h3 {
+.projects-item h3 {
   font-size: 1.5rem;
   margin: 15px 0 10px;
   color: #333;
@@ -243,13 +246,13 @@ header {
   letter-spacing: 1px;
 }
 
-.portfolio-item p {
+.projects-item p {
   font-size: 1rem;
   color: #666;
   padding: 0 15px 20px;
 }
 
-.portfolio-item:hover {
+.projects-item:hover {
   transform: scale(1.05);
   box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
 }
